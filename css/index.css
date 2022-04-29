@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.one{
+    background-color: rgb(223 166 85);
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    position: sticky;
+    top: -5px;
+}
+
+a{
+    text-decoration: none;
+    color: wheat;
+}
+
+a:hover{
+    color: black;
+}
+.one button{
+    padding: 5px 20px;
+    font-size: 1.5rem;
+    background-color: black;
+    color: wheat;
+    border-radius: 30px;
+}
+
+.one button:hover{
+    background-color: white;
+}
+
+
+nav{
+    background-color: rgb(1, 84, 126);
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    padding: 1px 0px;
+    top: 47px;
+}
+
+nav img{
+    border-radius: 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: 2rem;   
+}
+
+nav ul a{
+    padding: 0px 5px;
+    margin: 0px 10px;
+    color: #EDFA8B;
+}
+ nav ul a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.mainimg{
+    display: block;
+    height: 45rem;
+    width: 80%;
+    margin: auto;
+}
+
+.two{
+    background-color: rgb(1, 84, 126);
+    margin: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    color: black;
+    color: rgb(223 166 85);
+}
+
+.two button{
+    background-color: rgb(223 166 85);
+    padding: 10px 20px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    font-size: 1.1rem;
+}
+
+.two a{
+    color: black;
+}
+.two button:hover{
+    background-color: white;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+}
+footer a{
+    color: #EDFA8B;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+footer a:hover{
+    color: white;
+    border-bottom: 2px solid #1E425E;
+}
+footer p{
+    padding: 0.3rem 0.6rem;
+}
+
+footer img
+{
+    width: 430px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+.style{
+    font-size: 2.7rem;
+    text-align: center;
+    color: #473249;
+    font-weight: 500;
+}
+
+.style:hover{
+    font-size: 3.1rem;
+    font-weight: 650;
+}
+
+/* donor */
+
+.d1{
+    margin: 30px 80px;
+    font-size: 1.6rem;
+    background:url('/resources/scott-webb-GQD3Av_9A88-unsplash.jpg') center/cover;
+    height: 1480px;
+    padding: 15px
+}
+
+.d1 h1,.d2 h1{
+    text-align: center;
+    margin: 20px;
+}
+
+.d2{
+    margin: 30px 80px;
+    font-size: 1.6rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.s1{
+    text-align: center;
+    margin: 30px 5px;
+    font-size: 1.5rem;
+}
+
+.s2{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(1, 84, 126);
+    color: white;
+    padding: 10px 0px;
+}
+
+.a1{
+    text-align: center;
+    margin: 30px 50px;
+    font-size: 1.6rem;
+}
+
+.a1 b{
+    font-size: 1.8rem;
+}
+
+.f1{
+    text-align: center;
+    margin: 30px;
+    font-size: 1.7rem;
+    background-color: rgb(206, 204, 204);
+}
