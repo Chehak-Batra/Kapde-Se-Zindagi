@@ -114,7 +114,7 @@ footer{
     justify-content:space-between;
     align-items: center;
     font-size: 1.8rem;
-    padding: 1rem 2rem;
+    padding: 0.5rem 2rem;
 }
 footer a{
     color: #EDFA8B;
@@ -126,7 +126,7 @@ footer a:hover{
     border-bottom: 2px solid #1E425E;
 }
 footer p{
-    padding: 0.3rem 0.6rem;
+    padding: 0.05rem 0.6rem;
 }
 
 footer img
